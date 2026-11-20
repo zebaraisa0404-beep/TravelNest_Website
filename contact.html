@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TravelNest | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">✈ TravelNest</a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a class="nav-book" href="booking.html">Book Now</a>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Let's plan your journey</h1>
+        <p>Have a question? Send us a message.</p>
+    </section>
+
+    <section class="section wrap contact-grid">
+        <div class="contact-info">
+            <h2>Contact information</h2>
+            <p>Ask us about destinations, packages and booking.</p>
+
+            <div>
+                <strong>📧 Email</strong>
+                <p>hello@travelnest.com</p>
+            </div>
+
+            <div>
+                <strong>📞 Phone</strong>
+                <p>+880 1700-000000</p>
+            </div>
+
+            <div>
+                <strong>📍 Office</strong>
+                <p>Khulna, Bangladesh</p>
+            </div>
+        </div>
+
+        <form class="form-card" id="contactForm" novalidate>
+            <h2>Send a message</h2>
+
+            <label>Name<input id="contactName" required></label>
+            <label>Email<input id="contactEmail" type="email" required></label>
+            <label>Message<textarea id="contactMessage" rows="5" required minlength="10"></textarea></label>
+
+            <button class="btn" type="submit">Send Message</button>
+            <p class="form-status" id="contactStatus"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="wrap footer-grid">
+            <div>
+                <a class="logo">✈ TravelNest</a>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Packages</a>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>hello@travelnest.com</p>
+            </div>
+        </div>
+
+        <div class="copyright">© 2026 TravelNest.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
